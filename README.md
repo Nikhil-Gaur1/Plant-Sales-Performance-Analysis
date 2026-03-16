@@ -1,103 +1,115 @@
-# 🌿 Plant Sales Performance Dashboard
+# 🌿📊 Plant Sales Performance Dashboard
 
-An interactive **Power BI dashboard** designed to analyze plant product
-sales across customers, products, and regions. The dashboard highlights
-key metrics such as **sales performance, gross profit, and customer
-profitability** to support better sales and business decisions.
+An interactive **Power BI dashboard** designed to analyze plant product sales across customers, products, and regions.  
+The dashboard highlights key metrics such as **sales performance, gross profit, and customer profitability** to support better sales and business decisions.
 
-------------------------------------------------------------------------
+---
 
-## 1. Project Title
-
+## 📌 Project Title
 **Plant Sales Performance Dashboard**
 
-------------------------------------------------------------------------
+---
 
-## 2. Short Description / Purpose
+## 🎯 Short Description / Purpose
+This Power BI dashboard analyzes plant product sales data to uncover insights related to **product performance, customer revenue contribution, and year-over-year sales trends**.
 
-This Power BI dashboard analyzes plant product sales data to uncover
-insights related to **product performance, customer revenue
-contribution, and year‑over‑year sales trends**.\
-It enables businesses to monitor performance and identify profitable
-customers and products.
+It enables businesses to:
+- 📈 Monitor sales performance
+- 💰 Identify profitable customers
+- 🌱 Track product performance
 
-------------------------------------------------------------------------
+---
 
-## 3. Tech Stack
+## 🛠 Tech Stack
+- 📊 **Power BI Desktop** – Dashboard development  
+- 🔄 **Power Query** – Data cleaning and transformation  
+- 🧠 **DAX (Data Analysis Expressions)** – KPIs and calculations  
+- 🗂 **Data Modeling** – Star schema with fact and dimension tables  
+- 📁 **File Formats** – `.pbix` for development and `.png` for previews  
 
-The dashboard was built using:
+---
 
--   **Power BI Desktop** -- Data visualization and dashboard
-    development\
--   **Power Query** -- Data cleaning and transformation\
--   **DAX (Data Analysis Expressions)** -- Measures and calculations
-    such as Sales, Gross Profit, and YTD vs PYTD comparison\
--   **Data Modeling** -- Star schema using fact and dimension tables\
--   **File Format** -- `.pbix` for dashboard development and `.png` for
-    dashboard preview
+## 🗃 Data Source
+The dataset represents **plant product sales data from a manufacturing company**.
 
-------------------------------------------------------------------------
+### Dataset Tables
 
-## 4. Data Source
+**Plant_FACT**
+- Sales quantity
+- Sales value
+- Cost of goods (COGS)
+- Invoice date
 
-The dataset represents **plant product sales data from a manufacturing
-company**.
+**Accounts**
+- Customer information
+- Country and location
 
-The dataset contains three main tables:
+**Plant_Hierarchy**
+- Product family
+- Product group
+- Product size
+- Product type
 
-**Plant_FACT** - Transactional sales data (sales, quantity, cost,
-invoice date)
+A **Date table** was also created for **YTD and PYTD analysis**.
 
-**Accounts** - Customer information (country, location, account details)
+---
 
-**Plant_Hierarchy** - Product information including family, group, size,
-and type
+## ⭐ Features / Highlights
 
-A **Date table** was also created in Power BI to support time‑based
-analysis such as Year‑to‑Date (YTD) and Previous Year comparisons.
+### 🧩 Business Problem
+Companies often have large volumes of sales data but lack a quick way to analyze:
 
-------------------------------------------------------------------------
+- Product performance  
+- Customer profitability  
+- Regional sales trends  
 
-## 5. Features / Highlights
+---
 
-### Business Problem
-
-Organizations often have large volumes of sales data but lack an easy
-way to quickly analyze **product performance, customer profitability,
-and regional sales trends**.
-
-### Goal of the Dashboard
-
+### 🎯 Goal of the Dashboard
 The dashboard helps to:
 
--   Analyze **overall sales performance**
--   Identify **profitable customers**
--   Compare **current year vs previous year sales**
--   Monitor **regional performance and sales decline**
+- 📊 Analyze overall sales performance  
+- 💰 Identify profitable customers  
+- 📈 Compare current year vs previous year sales  
+- 🌍 Monitor regional performance  
 
-### Key Visuals
+---
 
-**KPI Cards** - Total Sales - Total Quantity - Gross Profit - Gross
-Profit %
+## 📊 Key Visuals
 
-**Sales Trend Chart** - Comparison of **YTD vs PYTD sales**
+### KPI Cards
+- 💰 Total Sales  
+- 📦 Total Quantity  
+- 📈 Gross Profit  
+- 📊 Gross Profit %
 
-**Country Performance (Treemap)** - Highlights **bottom performing
-countries**
+### 📉 Sales Trend Chart
+Shows **YTD vs PYTD sales comparison**.
 
-**Monthly Contribution (Waterfall Chart)** - Shows how each month
-contributes to the overall change in sales
+### 🌍 Country Performance (Treemap)
+Highlights **bottom performing countries**.
 
-**Customer Profitability (Scatter Plot)** - Identifies high‑value and
-low‑performing customers
+### 📅 Monthly Contribution (Waterfall Chart)
+Shows how each month impacts total sales change.
 
-### Business Impact
+### 👥 Customer Profitability (Scatter Plot)
+Helps identify:
+- High revenue & high profit customers
+- High revenue but low profit customers
+- Low performing customers
 
--   Identify **top customers and profitable products**
--   Detect **sales decline across regions**
--   Support **data‑driven business decisions**
+---
 
-------------------------------------------------------------------------
+## 🚀 Business Impact
+This dashboard enables businesses to:
+
+- 👥 Identify top customers  
+- 🌱 Discover profitable product categories  
+- 📉 Detect regional sales decline  
+- 📊 Support data-driven decision making  
+
+---
+
 
 ## 6. Dashboard Preview
 
