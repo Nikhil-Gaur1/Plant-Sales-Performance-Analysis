@@ -103,7 +103,7 @@ low‑performing customers
 
 Add your screenshot inside the `images` folder and link it like:
 
-![Dashboard Preview](images/dashboard_preview.png)
+![Dashboard Preview](https://github.com/Nikhil-Gaur1/Plant-Sales-Performance-Analysis/blob/9e22da3db3c666db2e02d2e956301e8168b705b4/Plant%20Sales%20Performance%20Analytics%20Dashboard_JPG.jpg)
 
 ------------------------------------------------------------------------
 
